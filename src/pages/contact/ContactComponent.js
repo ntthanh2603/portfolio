@@ -4,8 +4,8 @@ import Footer from "../../components/footer/Footer";
 import TopButton from "../../components/topButton/TopButton";
 import SocialMedia from "../../components/socialMedia/SocialMedia";
 import Button from "../../components/button/Button";
-import BlogsImg from "./BlogsImg";
-import AddressImg from "./AddressImg";
+// import BlogsImg from "./BlogsImg";
+// import AddressImg from "./AddressImg";
 import { Fade } from "react-reveal";
 import "./ContactComponent.css";
 import { greeting, contactPageData } from "../../portfolio.js";
@@ -77,22 +77,22 @@ class Contact extends Component {
                 </div>
               </div>
               <div className="blog-heading-img-div">
-                {/* <img
-											src={require(`../../assets/images/${blogSection["avatar_image_path"]}`)}
-											alt=""
-										/> */}
-                <BlogsImg theme={theme} />
+                <img
+                  src={require(`../../assets/images/9668ce58-8b29-49be-9d79-c4b76c35c8e0-fotor-202502218932.png`)}
+                  alt=""
+                />
+                {/* <BlogsImg theme={theme} /> */}
               </div>
             </div>
           </Fade>
           <Fade bottom duration={1000} distance="40px">
             <div className="address-heading-div">
               <div className="contact-heading-img-div">
-                {/* <img
-											src={require(`../../assets/images/${addressSection["avatar_image_path"]}`)}
-											alt=""
-										/> */}
-                <AddressImg theme={theme} />
+                <img
+                  src={require(`../../assets/images/0a916c5b-a652-447b-81c9-33c0ace02f7e-fotor-202502218158.png`)}
+                  alt=""
+                />
+                {/* <AddressImg theme={theme} /> */}
               </div>
               <div className="address-heading-text-div">
                 <h1

@@ -93,7 +93,7 @@ class Header extends Component {
                   onMouseEnter={(event) => onMouseEnter(event, theme.highlight)}
                   onMouseOut={(event) => onMouseOut(event)}
                 >
-                  Open Source
+                  Contributed
                 </NavLink>
               </li>
               <li>

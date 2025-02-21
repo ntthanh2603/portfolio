@@ -2,7 +2,7 @@ import React, { Component } from "react";
 
 export default class ExperienceImg extends Component {
   render() {
-    const theme = this.props.theme;
+    // const theme = this.props.theme;
     return (
       <svg
         id="bf56719a-dd30-4b09-833f-7c41eeee086b"
@@ -12,7 +12,7 @@ export default class ExperienceImg extends Component {
         height="760"
         viewBox="0 0 1094 760"
       >
-        <title>career process</title>
+        {/* <title>career process</title>
         <rect
           x="155"
           y="304.52"
@@ -387,7 +387,7 @@ export default class ExperienceImg extends Component {
           d="M906.86,578.86a121.9,121.9,0,0,0-42.34-.54c-15.89,2.63-32.13,8.41-47.67,4.19-9.12-2.48-17-8.22-25.91-11.41a49.18,49.18,0,0,0-26.75-1.6,45.76,45.76,0,0,0,56.69,61.06,45.92,45.92,0,0,0,29.28.81,45.78,45.78,0,0,0,55.62-44.66c0-1,0-2-.1-3A45.19,45.19,0,0,0,906.86,578.86Z"
           transform="translate(-53 -70)"
           opacity="0.1"
-        />
+        /> */}
       </svg>
     );
   }

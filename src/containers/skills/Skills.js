@@ -10,7 +10,7 @@ export default function Skills(props) {
       <div className="skills-header-div">
         <Fade bottom duration={2000} distance="20px">
           <h1 className="skills-header" style={{ color: theme.text }}>
-            Tôi có thể làm gì?
+            Kĩ năng, chuyên môn
           </h1>
         </Fade>
       </div>

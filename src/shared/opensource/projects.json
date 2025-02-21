@@ -3,122 +3,56 @@
     {
       "id": "R_kgDOJWL0-g",
       "name": "Social network SNet",
-      "createdAt": "2023-04-13T04:18:19Z",
+      "createdAt": "2025-01-25",
       "url": "https://github.com/ntthanh2603/social-network-SNet-backend.git",
-      "description": "Social network SNet",
+      "description": "Ứng dụng mạng xã hội SNet dùng NestJS, NextJS, Tailwind, Shadcn, Postgres, Redis, BullMQ, Websocket, SSE, Docker",
       "isFork": false,
-      "languages": [
-        {
-          "name": "Python",
-          "iconifyClass": "logos-python"
-        },
-        {
-          "name": "Shell",
-          "iconifyClass": "simple-icons:shell"
-        },
-        {
-          "name": "Jupyter Notebook",
-          "iconifyClass": "logos-jupyter"
-        }
-      ]
+      "languages": []
     },
     {
       "id": "R_kgDOG_vYHA",
-      "name": "explainable-cnn",
-      "createdAt": "2022-03-13T20:41:33Z",
-      "url": "https://github.com/ashutosh1919/explainable-cnn",
-      "description": "📦 PyTorch based visualization package for generating layer-wise explanations for CNNs.",
+      "name": "Segmentation Analysis",
+      "createdAt": "2024-12-1",
+      "url": "https://github.com/ntthanh2603/segmentation-analysis.git",
+      "description": "Phân loại cảm xúc trong đoạn văn dùng các model Bi-RNN(LSTM), Tranformer(DistilBERT, PhoBERT)",
       "isFork": false,
-      "languages": [
-        {
-          "name": "Python",
-          "iconifyClass": "logos-python"
-        }
-      ]
+      "languages": []
     },
     {
       "id": "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=",
-      "name": "masterPortfolio",
-      "createdAt": "2020-03-06T16:26:54Z",
-      "url": "https://github.com/ashutosh1919/masterPortfolio",
-      "description": "🔥 The Complete Customizable Software Developer Portfolio Template which lets you showcase your work and provides each and every detail about you as Software Developer.",
+      "name": "Game Bomberman",
+      "createdAt": "2023-06-1",
+      "url": "https://github.com/ntthanh2603/game-bomberman.git",
+      "description": "Trò chơi tuổi thơ game bomberman dùng Java, Javafx",
       "isFork": false,
-      "languages": [
-        {
-          "name": "HTML",
-          "iconifyClass": "logos-html-5"
-        },
-        {
-          "name": "CSS",
-          "iconifyClass": "logos-css-3"
-        },
-        {
-          "name": "JavaScript",
-          "iconifyClass": "logos-javascript"
-        },
-        {
-          "name": "Dockerfile",
-          "iconifyClass": "simple-icons:docker"
-        }
-      ]
+      "languages": []
     },
     {
       "id": "R_kgDOG0_8uQ",
-      "name": "react-awesome-shapes",
-      "createdAt": "2022-02-11T14:50:20Z",
-      "url": "https://github.com/ashutosh1919/react-awesome-shapes",
-      "description": "🌀 Insert Awesome Shapes into Your React Site with Ease.",
+      "name": "Crawl Analysis Data Facebook",
+      "createdAt": "2024-08-20",
+      "url": "https://github.com/ntthanh2603/crawl-analysis-data-facebook.git",
+      "description": "Thu thập và phân tích dữ liệu trang chủ facebook của 2 đội bóng Liver Pool, Manchester United",
       "isFork": false,
-      "languages": [
-        {
-          "name": "HTML",
-          "iconifyClass": "logos-html-5"
-        },
-        {
-          "name": "CSS",
-          "iconifyClass": "logos-css-3"
-        },
-        {
-          "name": "Shell",
-          "iconifyClass": "simple-icons:shell"
-        },
-        {
-          "name": "JavaScript",
-          "iconifyClass": "logos-javascript"
-        }
-      ]
+      "languages": []
     },
     {
       "id": "R_kgDOGcPKSQ",
-      "name": "neuro-symbolic-sudoku-solver",
-      "createdAt": "2021-11-26T17:56:07Z",
-      "url": "https://github.com/ashutosh1919/neuro-symbolic-sudoku-solver",
-      "description": "⚙️ Solving sudoku using Deep Reinforcement learning in combination with powerful symbolic representations.",
+      "name": "Detect Photo 18 Year And Older",
+      "createdAt": "2025-02-20",
+      "url": "https://github.com/ntthanh2603/detect-photos-18-years-and-older.git",
+      "description": "Phân loại ảnh 18+(Bao gồm: Ảnh bình thường, Ảnh man rợn, Ảnh nhậy cảm) dùng các model Yolo và CNN",
       "isFork": false,
-      "languages": [
-        {
-          "name": "Python",
-          "iconifyClass": "logos-python"
-        }
-      ]
+      "languages": []
     },
     {
       "id": "MDEwOlJlcG9zaXRvcnkzMjU5NDM1MTE=",
-      "name": "react-liquidswipe",
+      "name": "Tool Automation Posts Facebook",
       "createdAt": "2021-01-01T08:31:51Z",
-      "url": "https://github.com/ashutosh1919/react-liquidswipe",
-      "description": "🚀 Smooth Liquid Swipe Animation to transition between different components.",
+      "url": "https://github.com/ntthanh2603/tool-automation-posts-facebook.git",
+      "description": "Tool đăng bài tự động trên Facebook dùng Selenium, Pyautogui, Pandas",
       "isFork": false,
-      "languages": [
-        {
-          "name": "JavaScript",
-          "iconifyClass": "logos-javascript"
-        },
-        {
-          "name": "CSS",
-          "iconifyClass": "logos-css-3"
-        }
-      ]
+      "languages": []
     }
   ]
 }

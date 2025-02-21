@@ -106,7 +106,8 @@ class ExperienceCard extends Component {
                 }}
               >
                 <div className="repo-description" />
-                {experience["description"]}
+                {/* {experience["description"]} */}
+                <pre>{experience["description"]}</pre>
               </div>
             </div>
           </div>

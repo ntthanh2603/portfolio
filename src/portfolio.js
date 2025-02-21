@@ -8,11 +8,11 @@ const settings = {
 //SEO Related settings
 const seo = {
   title: "Nguyễn Tuấn Thành",
-  description: "Một cá nhân cshưa bao giờ muốn nghỉ ngơi hehe.",
+  description: "Một cá nhân chưa bao giờ muốn nghỉ ngơi hehe.",
   og: {
     title: "Nguyễn Tuấn Thành Portfolio",
     type: "website",
-    url: "http://ashutoshhathidara.com/",
+    url: "https://github.com/ntthanh2603/",
   },
 };
 
@@ -21,7 +21,9 @@ const greeting = {
   title: "Nguyễn Tuấn Thành",
   logo_name: "Nguyễn Tuấn Thành",
   nickname: "Software engineer",
-  subTitle: `Ước gì ngày có 48h để code cho đã tay`,
+  subTitle: `Chào bạn! Mình là Tuấn Thành, một người đam mê công nghệ, đặc biệt là 
+  Backend. Mình luôn thích khám phá những công nghệ mới và tìm cách ứng dụng chúng vào thực tế. 
+  Rất vui được kết nối và học hỏi cùng bạn!`,
   // resumeLink:
   //   "https://drive.google.com/file/d/1bXRknv_h-XI_3CQ3SGPteGODtvEb7YvI/view?usp=sharing",
   portfolio_repository: "https://github.com/ntthanh2603/",
@@ -341,39 +343,15 @@ const competitiveSites = {
     //   style: {
     //     color: "#F79F1B",
     //   },
-    //   profileLink: "https://leetcode.com/layman_brother/",
+    //   profileLink: "https://leetcode.com/u/ntthanh2603/",
     // },
     // {
-    //   siteName: "HackerRank",
-    //   iconifyClassname: "simple-icons:hackerrank",
-    //   style: {
-    //     color: "#2EC866",
-    //   },
-    //   profileLink: "https://www.hackerrank.com/layman_brother",
-    // },
-    // {
-    //   siteName: "Codechef",
-    //   iconifyClassname: "simple-icons:codechef",
-    //   style: {
-    //     color: "#5B4638",
-    //   },
-    //   profileLink: "https://www.codechef.com/users/ashutosh_1919",
-    // },
-    // {
-    //   siteName: "Codeforces",
-    //   iconifyClassname: "simple-icons:codeforces",
-    //   style: {
-    //     color: "#1F8ACB",
-    //   },
-    //   profileLink: "http://codeforces.com/profile/layman_brother",
-    // },
-    // {
-    //   siteName: "Hackerearth",
-    //   iconifyClassname: "simple-icons:hackerearth",
+    //   siteName: "Github",
+    //   iconifyClassname: "simple-icons:github",
     //   style: {
     //     color: "#323754",
     //   },
-    //   profileLink: "https://www.hackerearth.com/@ashutosh391",
+    //   profileLink: "https://github.com/ntthanh2603",
     // },
     // {
     //   siteName: "Kaggle",
@@ -381,7 +359,7 @@ const competitiveSites = {
     //   style: {
     //     color: "#20BEFF",
     //   },
-    //   profileLink: "https://www.kaggle.com/laymanbrother",
+    //   profileLink: "https://www.kaggle.com/liam26032004",
     // },
   ],
 };
@@ -389,15 +367,16 @@ const competitiveSites = {
 const degrees = {
   degrees: [
     {
-      title: "Đại học Công nghệ - Đại học Quốc gia Hà Nội",
-      subtitle: "Ngành Trí tuệ nhân tạo",
+      title:
+        "Ngành Trí tuệ nhân tạo - Đại học Công nghệ - Đại học Quốc gia Hà Nội",
+      subtitle: "",
       logo_path: "Logo_HUET.svg.png",
       alt_name: "Logo UETốt",
-      duration: "2022 - 2026",
+      duration: "Tháng 10/2022 - Tháng 6/2026",
       descriptions: [
         "⚡ Mình đang là sinh viên năm 3 và đã hoàn thành gần xong chương trình học",
         "⚡ GPA: 7.0/10",
-        `⚡ Mình đã tích lũy được vốn kiến thức của các môn như: Lập trình hướng đối tượng, Cấu trúc dữ liệu 
+        `⚡ Mình đã tích lũy được vốn kiến thức trên trường của các môn như: Lập trình hướng đối tượng, Cấu trúc dữ liệu 
         và giải thuật, Cơ sở dữ liệu, Công nghệ phần mềm, Học máy, Học sâu, Kỹ thuật và công nghệ dữ liệu lớn, 
         Xử lý ngôn ngữ tự nhiên...vv`,
         `⚡ Trong quá trình học tập thì mình luôn trau dồi không chỉ riêng kiến thức về AI mà
@@ -540,8 +519,9 @@ const certifications = {
 // Experience Page
 const experience = {
   title: "Kinh nghiệm",
-  subtitle: "Làm việc, thực tập",
-  description: "Mình đã thực tập ",
+  subtitle: "",
+  description: `Trong quá trình thực tập Backend Developer, mình đã có cơ hội làm việc với các công 
+  nghệ như NestJS, Postgres, Redis, BullMQ, Websocket, SSE, Docker. Tham gia phát triển và tối ưu hệ thống. Mình đã học được cách làm việc nhóm, giải quyết vấn đề thực tế và nâng cao kỹ năng lập trình. Ngoài ra, mình cũng hiểu hơn về quy trình phát triển phần mềm, quản lý cơ sở dữ liệu và triển khai ứng dụng. Đây là trải nghiệm quý giá giúp mình sẵn sàng cho những thử thách mới trong lĩnh vực công nghệ!`,
   header_image_path: "experience.svg",
   sections: [
     {
@@ -549,14 +529,22 @@ const experience = {
       work: true,
       experiences: [
         {
-          title: "Machine Learning Engineer",
-          company: "TikTok Inc.",
-          company_url: "https://www.tiktok.com/en/",
-          logo_path: "tiktok_logo.png",
-          duration: "June 2023 - Present",
-          location: "San Jose, CA, USA",
-          description:
-            "Improving ads ranking models on the core TikTok product. Experience working on modeling two-tower architectures like DeepFM, Wide & deep learning, etc. Working on Large Language Models (LLM) pretraining and Large Multi-modal Model (LMM) finetuning strategies.",
+          title: "Backend Developer Intern",
+          company: "Trung tâm Giám sát an toàn không gian mạng quốc gia(NCSC)",
+          company_url: "https://khonggianmang.vn/",
+          logo_path: "images.png",
+          duration: "Tháng 9/2024 - Tháng 1/2025",
+          location:
+            "Tầng 16 Tòa nhà Cục tần số, 115 Trần Duy Hưng, Hà Nội, Việt Nam",
+          description: `️🎯 Quy trình triển khai và phát triển sự án
+️🎯 Các ngôn ngữ dùng: JavaScript, TypeScript
+️🎯 Framework và library: NestJS, TypeORM, Mongose, JWT, Ioredis, BullMQ, Websocket, Socket.io, Schedule, Swagger
+️🎯 Khả năng thiết kế và tích hợp API RESTful
+️🎯 Quản lý cơ sở dữ liệu quan hệ (MySQL, PostgreSQL) và phi quan hệ (Redis, MongoDB)
+️🎯 Xây dựng hệ thống Backend đảm bảo an toàn thông tin với: CORS, Xác thực người dùng, Phân quyền người dùng, Kiểm tra dữ liệu đầu vào, Helmet, CSRF, Rate limit
+️🎯 Chiến thuật tối ưu hóa hiệu suất ứng dụng với Cache, Index, Partition, Sharding
+️🎯 Quản lý và triển khai các container với Docker, Docker compose
+️🎯 Hiểu và phòng chống các cuộc tấn công: SQL injection, Cross-Site Scripting(XSS), Cross-Site Request Forgery (CSRF), Denial of Service (DoS)/Distributed Denial of Service (DDoS)`,
           color: "#000000",
         },
         // {
@@ -602,10 +590,18 @@ const experience = {
           company: "Trung tâm Giám sát an toàn không gian mạng quốc gia(NCSC)",
           company_url: "https://khonggianmang.vn/",
           logo_path: "images.png",
-          duration: "May 2022 - Aug 2022",
-          location: "San Francisco, USA",
-          description:
-            "Building new features on the backend recommendation system, specifically ranking algorithms for Ads that touch hundreds of millions of people around the world. Improving online and offline content ranking algorithms by performing hard sample data replays for training steps.",
+          duration: "Tháng 9/2024 - Tháng 1/2025",
+          location:
+            "Tầng 16 Tòa nhà Cục tần số, 115 Trần Duy Hưng, Hà Nội, Việt Nam",
+          description: `️🎯 Quy trình triển khai và phát triển sự án
+️🎯 Các ngôn ngữ dùng: JavaScript, TypeScript
+️🎯 Framework và library: NestJS, TypeORM, Mongose, JWT, Ioredis, BullMQ, Websocket, Socket.io, Schedule, Swagger
+️🎯 Khả năng thiết kế và tích hợp API RESTful
+️🎯 Quản lý cơ sở dữ liệu quan hệ (MySQL, PostgreSQL) và phi quan hệ (Redis, MongoDB)
+️🎯 Xây dựng hệ thống Backend đảm bảo an toàn thông tin với: CORS, Xác thực người dùng, Phân quyền người dùng, Kiểm tra dữ liệu đầu vào, Helmet, CSRF, Rate limit
+️🎯 Chiến thuật tối ưu hóa hiệu suất ứng dụng với Cache, Index, Partition, Sharding
+️🎯 Quản lý và triển khai các container với Docker, Docker compose
+️🎯 Hiểu và phòng chống các cuộc tấn công: SQL injection, Cross-Site Scripting(XSS), Cross-Site Request Forgery (CSRF), Denial of Service (DoS)/Distributed Denial of Service (DDoS)`,
           color: "#000000",
         },
         // {
@@ -699,15 +695,19 @@ const experience = {
 
 // Projects Page
 const projectsHeader = {
-  title: "Projects",
-  description:
-    "My projects makes use of vast variety of latest technology tools. My best experience is to create Data Science projects and deploy them to web applications using cloud infrastructure.",
+  title: "Dự án",
+  description: `Dưới đây là các dự án IT mà mình đã thực hiện, thể hiện sự đam mê và kỹ năng trong lĩnh vực
+     công nghệ. Mỗi dự án là một cơ hội để mình áp dụng kiến thức về lập trình, phát triển phần mềm 
+     và tối ưu hệ thống. Từ việc xây dựng ứng dụng web, app, thiết kế API RESTful, xây dựng model AI, 
+     đến triển khai hệ thống với Docker, mình không ngừng học hỏi và cải thiện kỹ năng. 
+     Các dự án này không chỉ giúp mình hiểu sâu hơn về công nghệ mà còn rèn luyện khả năng 
+     giải quyết vấn đề thực tế. Hãy cùng khám phá chi tiết từng dự án!`,
   avatar_image_path: "projects_image.svg",
 };
 
 const publicationsHeader = {
   title: "Publications",
-  description: "Some of my published Articles, Blogs and Research.",
+  description: "Dưới đây là một số dự án, bài viết của tôi đã public",
   avatar_image_path: "projects_image.svg",
 };
 
@@ -715,24 +715,26 @@ const publications = {
   data: [
     {
       id: "neuro-symbolic-sudoku-solver",
-      name: "Neuro-Symbolic Sudoku Solver",
-      createdAt: "2023-07-02T00:00:00Z",
-      description: "Paper published in KDD KiML 2023",
-      url: "https://arxiv.org/abs/2307.00653",
+      name: "Social Network SNet",
+      createdAt: "2025-01-25",
+      description:
+        "Ứng dụng mạng xã hội SNet dùng NestJS, NextJS, Tailwind, Shadcn, Postgres, Redis, BullMQ, Websocket, SSE, Docker",
+      url: "https://github.com/ntthanh2603/social-network-SNet-backend.git",
     },
     {
       id: "mdp-diffusion",
-      name: "MDP-Diffusion",
-      createdAt: "2023-09-19T00:00:00Z",
-      description: "Blog published in Paperspace",
-      url: "https://blog.paperspace.com/mdp-diffusion/",
+      name: "Segmentation Analysis",
+      createdAt: "2024-12-10",
+      description:
+        "Phân loại cảm xúc trong đoạn văn dùng các model Bi-RNN(LSTM), Tranformer(DistilBERT, PhoBERT)",
+      url: "https://github.com/ntthanh2603/segmentation-analysis.git",
     },
     {
       id: "consistency-models",
-      name: "Consistency Models",
-      createdAt: "2023-10-12T00:00:00Z",
-      description: "Blog published in Paperspace",
-      url: "https://blog.paperspace.com/consistency-models/",
+      name: "Game Bomberman",
+      createdAt: "2023-06-10",
+      description: "Trò chơi tuổi thơ game bomberman dùng Java, Javafx",
+      url: "https://github.com/ntthanh2603/game-bomberman.git",
     },
   ],
 };
@@ -740,28 +742,29 @@ const publications = {
 // Contact Page
 const contactPageData = {
   contactSection: {
-    title: "Contact Me",
-    profile_image_path: "animated_ashutosh.png",
-    description:
-      "I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with ML, AI, React, Android, Cloud and Opensource Development.",
+    title: "Liên hệ với tôi",
+    profile_image_path: "IMG_20240921_153510-fotor-2025022141852.png",
+    description: `Tôi có thường xuyên dùng mạng xã hội. Bạn có thể nhắn tin cho tôi, tôi sẽ trả lời trong
+       vòng 24 giờ. Chúng ta có thể hợp tác phát triển các dự án về Backend, Frontend, AI`,
   },
   blogSection: {
     title: "Blogs",
     subtitle:
-      "I like to document some of my experiences in professional career journey as well as some technical knowledge sharing.",
-    link: "https://blogs.ashutoshhathidara.com/",
+      "Tôi muốn ghi lại một số kinh nghiệm của mình trong hành trình sự nghiệp cũng như chia sẻ một số kiến ​​thức chuyên môn",
+    link: "https://viblo.asia/u/tuanthanh2kk4",
     avatar_image_path: "blogs_image.svg",
   },
   addressSection: {
-    title: "Address",
-    subtitle: "Saratoga Ave, San Jose, CA, USA 95129",
-    locality: "San Jose",
-    country: "USA",
-    region: "California",
-    postalCode: "95129",
-    streetAddress: "Saratoga Avenue",
+    title: "Địa chỉ",
+    subtitle: "Quận Bắc Từ Liêm, Thành phố Hà Nội, Quốc gia Việt Nam",
+    locality: "",
+    country: "Việt Nam",
+    region: "",
+    postalCode: "",
+    streetAddress: "",
     avatar_image_path: "address_image.svg",
-    location_map_link: "https://maps.app.goo.gl/NvYZqa34Wye4tpS17",
+    location_map_link:
+      "https://www.google.com/maps/place/C%E1%BB%95+Nhu%E1%BA%BF+1,+C%E1%BB%95+Nhu%E1%BA%BF,+B%E1%BA%AFc+T%E1%BB%AB+Li%C3%AAm,+H%C3%A0+N%E1%BB%99i/data=!4m6!3m5!1s0x3135ab2a5a755a9d:0xd2aaa6f417e3958c!7e2!8m2!3d21.0578889!4d105.7854933?utm_source=mstt_1&entry=gps&coh=192189&g_ep=CAESBjI1LjcuMhgAINeCAyp1LDk0MjU1NDQ3LDk0MjQyNTQ3LDk0MjIzMjk5LDk0MjE2NDEzLDk0MjEyNDk2LDk0MjA3Mzk0LDk0MjA3NTA2LDk0MjA4NTA2LDk0MjE3NTIzLDk0MjE4NjUzLDk0MjI5ODM5LDQ3MDg0MzkzLDk0MjEzMjAwQgJWTg%3D%3D&skid=59e613e1-e15f-4efa-bd92-866a991e4fa2",
   },
   phoneSection: {
     title: "",
