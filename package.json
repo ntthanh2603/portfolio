@@ -1,12 +1,12 @@
 {
   "private": true,
-  "name": "masterPortfolio",
+  "name": "portfolio",
   "version": "0.1.0",
-  "homepage": ".",
+  "homepage": "https://ntthanh2603.github.io/portfolio/",
   "scripts": {
     "build": "react-scripts --openssl-legacy-provider build",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -b gh-pages -d build",
+    "deploy": "gh-pages -d build",
     "eject": "react-scripts eject",
     "start": "react-scripts --openssl-legacy-provider start",
     "test": "react-scripts test"
