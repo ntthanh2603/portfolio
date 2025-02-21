@@ -1,12 +1,12 @@
 import React, { Component } from "react";
-import Header from "../../../components/header/Header";
-import Footer from "../../../components/footer/Footer";
-import TopButton from "../../../components/topButton/TopButton";
+import Header from "../../components/header/Header";
+import Footer from "../../components/footer/Footer";
+import TopButton from "../../components/topButton/TopButton";
 import { Fade } from "react-reveal";
-import "./Error.css";
+import "./Portfolio.css";
 import { Link } from "react-router-dom";
 
-export default class Error extends Component {
+export default class Portfolio extends Component {
   render() {
     const theme = this.props.theme;
     return (

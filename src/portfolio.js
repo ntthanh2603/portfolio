@@ -19,13 +19,14 @@ const seo = {
 //Home Page
 const greeting = {
   title: "Nguyễn Tuấn Thành",
-  logo_name: "Nguyễn Tuấn Thành",
+  logo_name: "Tuấn Thành",
   nickname: "Software engineer",
   subTitle: `Chào bạn! Mình là Tuấn Thành, một người đam mê công nghệ, đặc biệt là 
   Backend. Mình luôn thích khám phá những công nghệ mới và tìm cách ứng dụng chúng vào thực tế. 
   Rất vui được kết nối và học hỏi cùng bạn!`,
-  // resumeLink:
-  //   "https://drive.google.com/file/d/1bXRknv_h-XI_3CQ3SGPteGODtvEb7YvI/view?usp=sharing",
+  resumeLink:
+    // Có thể thêm 1 link CV vào hoặc để /education hoặc /experience
+    "https://www.canva.com/design/DAGe7H4Nr4E/cynll079ufT_Z5eLjOq-mw/edit?ui=eyJEIjp7IlAiOnsiQiI6ZmFsc2V9fX0",
   portfolio_repository: "https://github.com/ntthanh2603/",
   githubProfile: "https://github.com/ntthanh2603/",
 };
@@ -368,7 +369,7 @@ const degrees = {
   degrees: [
     {
       title:
-        "Ngành Trí tuệ nhân tạo - Đại học Công nghệ - Đại học Quốc gia Hà Nội",
+        "Học Trí tuệ nhân tạo tại Đại học Công nghệ - Đại học Quốc gia Hà Nội",
       subtitle: "",
       logo_path: "Logo_HUET.svg.png",
       alt_name: "Logo UETốt",
@@ -696,17 +697,15 @@ const experience = {
 // Projects Page
 const projectsHeader = {
   title: "Dự án",
-  description: `Dưới đây là các dự án IT mà mình đã thực hiện, thể hiện sự đam mê và kỹ năng trong lĩnh vực
-     công nghệ. Mỗi dự án là một cơ hội để mình áp dụng kiến thức về lập trình, phát triển phần mềm 
-     và tối ưu hệ thống. Từ việc xây dựng ứng dụng web, app, thiết kế API RESTful, xây dựng model AI, 
-     đến triển khai hệ thống với Docker, mình không ngừng học hỏi và cải thiện kỹ năng. 
-     Các dự án này không chỉ giúp mình hiểu sâu hơn về công nghệ mà còn rèn luyện khả năng 
-     giải quyết vấn đề thực tế. Hãy cùng khám phá chi tiết từng dự án!`,
+  description: `Dưới đây là các dự án mà mình đã thực hiện. Mỗi dự án là một cơ hội để mình áp dụng kiến thức 
+  về lập trình, phát triển phần mềm và tối ưu hệ thống. Từ việc xây dựng ứng dụng web, app, thiết kế API RESTful, 
+  xây dựng model AI, đến triển khai hệ thống với Docker. Các dự án này không chỉ giúp mình hiểu sâu hơn về công 
+  nghệ mà còn rèn luyện khả năng giải quyết vấn đề thực tế. Hãy khám phá chi tiết từng dự án nhé!`,
   avatar_image_path: "projects_image.svg",
 };
 
 const publicationsHeader = {
-  title: "Publications",
+  title: "Công khai",
   description: "Dưới đây là một số dự án, bài viết của tôi đã public",
   avatar_image_path: "projects_image.svg",
 };
@@ -742,21 +741,21 @@ const publications = {
 // Contact Page
 const contactPageData = {
   contactSection: {
-    title: "Liên hệ với tôi",
+    title: "Liên hệ với mình nhé",
     profile_image_path: "IMG_20240921_153510-fotor-2025022141852.png",
-    description: `Tôi có thường xuyên dùng mạng xã hội. Bạn có thể nhắn tin cho tôi, tôi sẽ trả lời trong
+    description: `Mình có thường xuyên hoạt động trên mạng xã hội. Bạn có thể nhắn tin cho mình, mình sẽ trả lời trong
        vòng 24 giờ. Chúng ta có thể hợp tác phát triển các dự án về Backend, Frontend, AI`,
   },
   blogSection: {
     title: "Blogs",
     subtitle:
-      "Tôi muốn ghi lại một số kinh nghiệm của mình trong hành trình sự nghiệp cũng như chia sẻ một số kiến ​​thức chuyên môn",
+      "Mình muốn ghi lại một số kinh nghiệm của mình trong hành trình sự nghiệp cũng như chia sẻ một số kiến ​​thức chuyên môn",
     link: "https://viblo.asia/u/tuanthanh2kk4",
     avatar_image_path: "blogs_image.svg",
   },
   addressSection: {
     title: "Địa chỉ",
-    subtitle: "Quận Bắc Từ Liêm, Thành phố Hà Nội, Quốc gia Việt Nam",
+    subtitle: "Bắc Từ Liêm, Hà Nội, Việt Nam",
     locality: "",
     country: "Việt Nam",
     region: "",
