@@ -531,7 +531,8 @@ const experience = {
       experiences: [
         {
           title: "Backend Developer Intern",
-          company: "Trung tâm Giám sát an toàn không gian mạng quốc gia(NCSC)",
+          company:
+            "Trung tâm Giám sát an toàn không gian mạng quốc gia(NCSC) - Cục an toàn thông tin - Bộ Thông tin và Truyền thông",
           company_url: "https://khonggianmang.vn/",
           logo_path: "images.png",
           duration: "Tháng 9/2024 - Tháng 1/2025",
@@ -588,7 +589,8 @@ const experience = {
       experiences: [
         {
           title: "Backend Developer Intern",
-          company: "Trung tâm Giám sát an toàn không gian mạng quốc gia(NCSC)",
+          company:
+            "Trung tâm Giám sát an toàn không gian mạng quốc gia(NCSC) - Cục an toàn thông tin - Bộ Thông tin và Truyền thông",
           company_url: "https://khonggianmang.vn/",
           logo_path: "images.png",
           duration: "Tháng 9/2024 - Tháng 1/2025",
